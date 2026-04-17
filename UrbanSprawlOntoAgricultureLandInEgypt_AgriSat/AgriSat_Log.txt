@@ -1,0 +1,132 @@
+Astrogator Log File; DriverMCS: Mission_Control_Sequence
+-------------------------------------------------------------
+
+
+----------------------------------------------
+Begin targeter profile Target_Sequence.Differential_Corrector
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                                Current Value           Last Update        Total Correction
+Maneuver : ImpulsiveMnvr.Spherical.MagnitudeSDU  110.244123166443 m/sec  0.000000000000 m/sec  110.244123166443 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Maneuver : Radius_Of_Apoapsis  7078.137000000000 km
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                                Current Value           Last Update        Total Correction
+Maneuver : ImpulsiveMnvr.Spherical.MagnitudeSDU  110.244123166443 m/sec  0.000000000000 m/sec  110.244123166443 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                               Current Value               Desired         Difference          Tolerance
+Maneuver : Radius_Of_Apoapsis  7078.132186685611 km  7078.137000000000 km -0.004813314389 km  0.100000000000 km
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                                Current Value           Last Update        Total Correction
+Maneuver : ImpulsiveMnvr.Spherical.MagnitudeSDU  110.244123166443 m/sec  0.000000000000 m/sec  110.244123166443 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                               Current Value               Desired         Difference          Tolerance
+Maneuver : Radius_Of_Apoapsis  7078.132186685611 km  7078.137000000000 km -0.004813314389 km  0.100000000000 km
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_Sequence.Differential_Corrector
+----------------------------------------------
+Begin targeter profile Target_Sequence1.Differential_Corrector
+
+Initial control parameters:
+
+Unscaled Controls:
+Name                                         Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Cartesian.XSDU -5737.190908521865 m/sec  0.000000000000 m/sec -5737.190908521865 m/sec
+Maneuver : ImpulsiveMnvr.Cartesian.YSDU -7328.189934647658 m/sec  0.000000000000 m/sec -7328.189934647658 m/sec
+
+
+Homotopy step   1 of   1
+
+Intermediate Goals Desired:
+Maneuver : Eccentricity   0.000000000000    
+Maneuver : Inclination   98.000000000000 deg
+
+
+
+---Running one step of the differential corrector...
+
+--------------------------------------------------------
+
+<<< Targeting Finished >>>
+    [Goals met]
+
+
+--------------------------------------------------------
+
+---Done. (running one step of the differential corrector.)
+
+Params from single diff corr
+
+Unscaled Controls:
+Name                                         Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Cartesian.XSDU -5737.190908521865 m/sec  0.000000000000 m/sec -5737.190908521865 m/sec
+Maneuver : ImpulsiveMnvr.Cartesian.YSDU -7328.189934647658 m/sec  0.000000000000 m/sec -7328.189934647658 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                       Current Value              Desired          Difference           Tolerance
+Maneuver : Eccentricity   0.000116108697       0.000000000000      0.000116108697      0.001000000000    
+Maneuver : Inclination   97.999793827591 deg  98.000000000000 deg -0.000206172409 deg  0.100000000000 deg
+
+
+
+----------------------------------------------
+Final Params from Homotopy Diff Corr
+
+Unscaled Controls:
+Name                                         Current Value           Last Update         Total Correction
+Maneuver : ImpulsiveMnvr.Cartesian.XSDU -5737.190908521865 m/sec  0.000000000000 m/sec -5737.190908521865 m/sec
+Maneuver : ImpulsiveMnvr.Cartesian.YSDU -7328.189934647658 m/sec  0.000000000000 m/sec -7328.189934647658 m/sec
+
+
+Unscaled Intermediate Constraints:
+Name                       Current Value              Desired          Difference           Tolerance
+Maneuver : Eccentricity   0.000116108697       0.000000000000      0.000116108697      0.001000000000    
+Maneuver : Inclination   97.999793827591 deg  98.000000000000 deg -0.000206172409 deg  0.100000000000 deg
+
+
+
+----------------------------------------------
+
+*********** Done Targeting************************
+
+End targeter profile Target_Sequence1.Differential_Corrector

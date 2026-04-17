@@ -1,0 +1,106 @@
+stk.v.11.0
+WrittenBy    STK_v11.2.0
+
+BEGIN AreaTarget
+
+Name        BeniSuef
+
+	BEGIN CentroidPosition
+
+		CentralBody            Earth
+		AutoCentroid           On
+		EcfLatitude            2.893832e+01
+		EcfLongitude           3.097021e+01
+		EcfAltitude            4.582268e+01
+		UseTerrainInfo         On
+		DisplayCoords          Geodetic
+
+		AreaType               Pattern
+		AreaValue          9.17045500939325e+08
+		NumberOfPolygonPts     17
+
+		BEGIN PolygonPoints
+
+			2.90560809173321e+01	3.08517701256578e+01	0.00000000000000e+00
+			2.90973090097698e+01	3.09891971004501e+01	0.00000000000000e+00
+			2.90881472114503e+01	3.10739437349053e+01	0.00000000000000e+00
+			2.90652427156516e+01	3.11289145248223e+01	0.00000000000000e+00
+			2.90400477702730e+01	3.10876864323846e+01	0.00000000000000e+00
+			2.90194337240542e+01	3.10647819365859e+01	0.00000000000000e+00
+			2.89896578795158e+01	3.10647819365859e+01	0.00000000000000e+00
+			2.89507202366580e+01	3.10304251928878e+01	0.00000000000000e+00
+			2.89369775391788e+01	3.10304251928878e+01	0.00000000000000e+00
+			2.89278157408593e+01	3.10189729449884e+01	0.00000000000000e+00
+			2.89026207954807e+01	3.10006493483494e+01	0.00000000000000e+00
+			2.88453595559839e+01	3.09296454113734e+01	0.00000000000000e+00
+			2.87858078669072e+01	3.09227740626338e+01	0.00000000000000e+00
+			2.86941898837124e+01	3.08952886676753e+01	0.00000000000000e+00
+			2.87354179761500e+01	3.06914386550667e+01	0.00000000000000e+00
+			2.88774258501021e+01	3.07441189954038e+01	0.00000000000000e+00
+			2.90560809173321e+01	3.08517701256578e+01	0.00000000000000e+00
+
+		END PolygonPoints
+
+        BoundaryType           GreatArc
+        Granularity            0.008727
+
+	END CentroidPosition
+
+BEGIN Extensions
+    
+    BEGIN ExternData
+    END ExternData
+    
+    BEGIN ADFFileData
+    END ADFFileData
+    
+    BEGIN AccessConstraints
+		LineOfSight   IncludeIntervals 
+    END AccessConstraints
+    
+    BEGIN Desc
+    END Desc
+    
+    BEGIN Crdn
+    END Crdn
+    
+    BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor             #ff00ff
+                PolygonColor            #ff00ff
+                LabelColor              #ff00ff
+                LineStyle               0
+                LineWidth               1.0
+                FillTranslucency        0.500000
+                MarkerStyle             0
+                FontStyle               0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx                 On
+                Inherit                 On
+                ShowCentroid            On
+                ShowBoundaryPts         Off
+                ShowLabel               On
+                Filled                  Off
+                SymmetricFill           Off
+                ShowBoundingRect        Off
+
+            END Graphics
+
+        BEGIN DisplayTimes
+            DisplayType	AlwaysOn
+        END DisplayTimes
+    END Graphics
+    
+    BEGIN VO
+    END VO
+
+END Extensions
+
+END AreaTarget
+
